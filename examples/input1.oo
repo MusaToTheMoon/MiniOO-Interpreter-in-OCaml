@@ -1,0 +1,6 @@
+(* language supports (* nested *) comments *)
+(* Variable Declaration and Assignment *)
+var x;
+x = 10;
+if (x > 5) then {print(x);} else {print(0);};
+(* Commands must be separated by a semicolon and the last statement must also be followed by a semicolon *)

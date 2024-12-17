@@ -1,0 +1,8 @@
+(* Parallel Execution *)
+var x;
+var y;
+{ 
+  x = 1; print(x); print(x);
+ |||  
+  y = 2; atom(print(y); print(y););
+};

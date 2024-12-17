@@ -1,0 +1,4 @@
+(* Procedure and Function Call *)
+var p;
+p = proc y: print(y + 10); print(0);;
+p(5);

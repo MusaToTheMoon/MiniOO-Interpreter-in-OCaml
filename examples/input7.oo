@@ -1,0 +1,16 @@
+(* Factorial *)
+var factorial;          
+var result;             
+result = 1;
+
+factorial = proc n: {
+    if (n == 0) then {
+        print(result);
+    }
+    else {
+        result = result * n;
+        factorial(n - 1);
+    };
+};
+
+factorial(5);

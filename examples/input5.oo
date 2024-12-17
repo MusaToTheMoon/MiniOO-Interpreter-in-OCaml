@@ -1,0 +1,5 @@
+(* Field Access and Malloc *)
+var x;
+(* malloc(x); *) (* de-comment this line to remove runtime error *)
+x.F = 100;
+print(x.F);
