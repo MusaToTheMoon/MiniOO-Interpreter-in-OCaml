@@ -1,7 +1,7 @@
 # **MiniOO Interpreter**  
 ### **A Lightweight Object-Oriented Language Interpreter**  
 **Author**: Muhammad Musa Khan  
-**Course**: CSCI-3110 Honors Programming Languages  
+**Course**: CSCI-GA 3110 Honors Programming Languages  
 **SCHOOL**: New York University, Courant Institute of Mathematical Sciences
 
 ## **1. Project Overview**  
