@@ -2,7 +2,7 @@
 ### **A Lightweight Object-Oriented Language Interpreter**  
 **Author**: Muhammad Musa Khan  
 **Course**: CSCI-GA 3110 Honors Programming Languages  
-**SCHOOL**: New York University, Courant Institute of Mathematical Sciences
+**Institute**: New York University, Courant Institute of Mathematical Sciences
 
 ## **1. Project Overview**  
 
@@ -89,8 +89,8 @@ if (x > 5) then {print(x);} else {print(0);};
 ```miniOO
 (* Procedure and Function Call *)
 var p;
-p(5);
 p = proc y: print(y + 10); print(0);;
+p(5);
 ```
 - Demonstrates procedure declaration and calls.
 
@@ -126,9 +126,9 @@ while (x > 0) {
 ```miniOO
 (* Field Access and Malloc *)
 var x;
+(* malloc(x); *) (* Uncomment this line to allocate memory and prevent errors *)
 x.F = 100;
 print(x.F);
-(* malloc(x); *) (* Uncomment this line to allocate memory and prevent errors *)
 ```
 - Requires `malloc` for dynamic object allocation.
 
